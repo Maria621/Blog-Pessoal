@@ -6,7 +6,7 @@ USE `tb_blog_pessoal` ;
 
 
 -- -----------------------------------------------------
--- Table `mydb`.`tb_temas`
+-- Table `tb_blog_pessoal`.`tb_temas`
 -- -----------------------------------------------------
 CREATE TABLE IF NOT EXISTS `mydb`.`tb_temas` (
   `id` BIGINT NOT NULL,
@@ -16,7 +16,7 @@ ENGINE = InnoDB;
 
 
 -- -----------------------------------------------------
--- Table `mydb`.`tb_usuario`
+-- Table `tb_blog_pessoal`.`tb_usuario`
 -- -----------------------------------------------------
 CREATE TABLE IF NOT EXISTS `mydb`.`tb_usuario` (
   `id` BIGINT NOT NULL,
@@ -29,7 +29,7 @@ ENGINE = InnoDB;
 
 
 -- -----------------------------------------------------
--- Table `mydb`.`tb_postagens`
+-- Table `tb_blog_pessoal`.`tb_postagens`
 -- -----------------------------------------------------
 CREATE TABLE IF NOT EXISTS `mydb`.`tb_postagens` (
   `id` BIGINT NOT NULL,
