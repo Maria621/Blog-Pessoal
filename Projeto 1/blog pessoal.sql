@@ -1,12 +1,12 @@
 ------------------------------------------------
 -- Schema tb_blog_pessoal
 -- -----------------------------------------------------
-CREATE SCHEMA IF NOT EXISTS `tb_blog_pessoal` DEFAULT CHARACTER SET utf8 ;
-USE `tb_blog_pessoal` ;
+CREATE SCHEMA IF NOT EXISTS `mydb` DEFAULT CHARACTER SET utf8 ;
+USE `mydb` ;
 
 
 -- -----------------------------------------------------
--- Table `tb_blog_pessoal`.`tb_temas`
+-- Table `mydb`.`tb_temas`
 -- -----------------------------------------------------
 CREATE TABLE IF NOT EXISTS `mydb`.`tb_temas` (
   `id` BIGINT NOT NULL,
@@ -16,7 +16,7 @@ ENGINE = InnoDB;
 
 
 -- -----------------------------------------------------
--- Table `tb_blog_pessoal`.`tb_usuario`
+-- Table `mydb`.`tb_usuario`
 -- -----------------------------------------------------
 CREATE TABLE IF NOT EXISTS `mydb`.`tb_usuario` (
   `id` BIGINT NOT NULL,
@@ -29,7 +29,7 @@ ENGINE = InnoDB;
 
 
 -- -----------------------------------------------------
--- Table `tb_blog_pessoal`.`tb_postagens`
+-- Table `mydb`.`tb_postagens`
 -- -----------------------------------------------------
 CREATE TABLE IF NOT EXISTS `mydb`.`tb_postagens` (
   `id` BIGINT NOT NULL,
