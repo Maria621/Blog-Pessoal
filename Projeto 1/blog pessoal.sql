@@ -1,5 +1,5 @@
 ------------------------------------------------
--- Schema mydb
+-- Schema tb_blog_pessoal
 -- -----------------------------------------------------
 CREATE SCHEMA IF NOT EXISTS `tb_blog_pessoal` DEFAULT CHARACTER SET utf8 ;
 USE `tb_blog_pessoal` ;
